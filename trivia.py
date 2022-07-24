@@ -3,7 +3,7 @@ import functools
 def sum(arr):
     return functools.reduce(lambda a, b: a+b, arr)
 
-def exponential(n, p, recursion=False):
+def exponential(n, p):
     """
     Exponential by while loop
     """

@@ -1,12 +1,12 @@
 import functools
 
 def max(arr):
-    """ Given a list of integers, find the maximum number
+    """ Return maximum number in a given list of integers.
     """
     return functools.reduce(lambda a, b: a > b and a or b, arr)
 
 def min(arr):
-    """ Given a list of integers, find the minumum number
+    """ Return minimum number in a given list of integers.
     """
     return functools.reduce(lambda a, b: a < b and a or b, arr)
 
